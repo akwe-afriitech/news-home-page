@@ -1,0 +1,240 @@
+body{
+    margin: auto;
+    width: 65%;
+    padding-top: 2VW;
+}
+#nav{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    text-decoration: none;
+    padding: 1.5vw;
+    font-size: 1vw;
+}
+.nav-links:hover {
+    color: brown;
+}
+#main-body{
+    padding-top: 1vw;
+}
+#top-section{
+    justify-content: space-between;
+}
+#left-div{
+    width: 70%;
+    
+
+}
+#right-div{
+    width: 25%;
+}
+#welcome-img{
+    width: 100%;
+    
+}
+#welcome-img-mobile{
+    display: none;
+    
+}
+.welcome-text{
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    line-height: 3vw;
+}
+#main-header{
+    font-size: 3vw;
+    font-weight: bolder;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    /* line-height: 10px; */
+}
+
+.intro-text{
+    font-size: 1vw;
+    align-items: start;
+    line-height: 1.4vw;
+    margin: 0;
+    padding: 0;
+}
+.img-div{
+    margin-bottom: 3vw;
+}
+.intro{
+    width: 45%;
+}
+
+.flex{
+    display: flex;
+}
+#readmore-btn{
+    margin-bottom: 0;
+    background-color: rgb(230, 79, 79);
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 0.9vw;
+    border: 0px;
+    
+}
+#right-div{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+}
+.new-header{
+    color: orange;
+    font-size: 2vw;
+}
+.post-tiles{
+    display: flex;
+}
+#bottom-section{
+    margin-top: 1.5vw;
+    justify-content: space-between;
+}
+.img-postdiv{
+    width: 50%;
+    padding-right: 1vw;
+}
+.post-tiles{
+    margin: 1vw;
+}
+.img{
+    width: 6vw;  
+}
+.contend-div{
+    display: flex;
+    line-height: 1vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.new-header, .title-text, .description{
+    margin: 0;
+    padding-bottom: 0px;
+}
+.headlines, .title-text{
+    font-size: 1.4vw;
+    font-weight: bolder;
+}
+.description-qtn, .description{
+    font-size: 0.9vw;
+}
+.toggle-div{
+    display: none;
+}
+@media (max-width: 768px) {
+    body {
+       width: 93%;
+        
+    }
+    #nav{
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .block{
+        display: block;
+    }
+    #welcome-img{
+        display: none;
+    }
+    #welcome-img-mobile{
+        display: block;
+        width: 100%;
+        padding-bottom: 5vw;
+    }
+    .toggle-div{
+        display: block;
+    }
+    .nav-div{
+        top: 80px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color:azure;
+        justify-content: start;
+        
+
+    }
+    .nav-links{
+        font-size: 5vw;
+        padding: 5vw;
+    }
+    #left-div, #right-div{
+        width: 100%;    
+    }
+    #main-header{
+        font-size: 12vw;
+        padding-bottom: 5vw;
+    }
+    .welcome-text{
+        line-height: 11vw;
+        
+    }
+    .intro{
+        width: 100%;
+    }
+    .intro-text{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    #readmore-btn{
+        width: 50vw;
+        height: 13vw;
+        font-size: 4vw;
+        margin-top: 10vw;
+        margin-bottom: 15vw;
+        font-weight: 900;
+    }
+    #right-div{
+        margin-top: 5vw;
+        padding: 5vw;
+        width: 90%;
+    }
+    .new-header{
+        font-size: 9vw;
+    }
+    .headlines, .title-text{
+        font-size: 6vw;
+    }
+    .description-qtn, .description{
+        font-size: 4.5vw;
+    }
+    hr{
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    #top-section{
+        margin-bottom: 15vw;
+    }
+    .contend-div{
+        line-height: 8vw;
+        width: 65vw;
+    }
+    .img{
+        width: 30vw;
+    }
+    .post-tiles{
+        margin-top: 8vw;
+    }
+    #toggle-btn{
+        border: 0px;
+        background-color: transparent;
+    }
+    .close-nav {
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+    .closed{
+        display: none;
+    }
+    
+   
+ 
+}
